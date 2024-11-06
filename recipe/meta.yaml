@@ -1,5 +1,5 @@
 {% set name = "mimemagic" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256:  dcc5272237bd92cabf9fe395dc82479d5178583918d88ebd401d07b89c2e9711
+  sha256: 714b2998926afa7ff261c0c5dc5a55a7ac34a8ec432ce115cd6dd1b98b9b505e
 
 build:
   noarch: generic
